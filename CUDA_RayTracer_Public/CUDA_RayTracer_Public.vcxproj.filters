@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{2614dde4-ee80-4a2c-9553-edc4ae760713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{b776d7bd-f95b-4fb8-9fe2-453c13e4288a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{dcb40dd6-925f-4787-8cad-4f778d3edb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surfaces">
+      <UniqueIdentifier>{d022d55f-07ef-4d72-b182-cee7f5c3d754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{f90b7524-ef90-4231-92d2-911150c6acbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{d161d614-1999-42eb-b340-664586b54cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{a2678136-5ec8-4bd5-987b-8d2529249a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{fdd2d45a-60ae-4bb8-aea6-1718e877c76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Happly">
+      <UniqueIdentifier>{9a66db01-2acd-4b26-b81e-7b4bca9ca1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acceleration Structure">
+      <UniqueIdentifier>{a037ef9d-0c83-477e-801c-bd6c362fba79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util\AABB.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\hitrec.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\pcdata.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ray.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\sampling.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SDLManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\uidata.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\sphere.h">
+      <Filter>Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\surface.h">
+      <Filter>Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Surfaces\surfel.h">
+      <Filter>Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Light\light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\bssrdf_approx.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\bssrdf_dipole.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\cook_torrance.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\lambertian.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\microfacet_multiple.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\microfacet_single.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\microfacet_util.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_opengl3.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_sdl.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\khrplatform.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Happly\happly.h">
+      <Filter>Happly</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceleration Structure\sahtree.h">
+      <Filter>Acceleration Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\cuda_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Util\pcdata.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SDLManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_sdl.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceleration Structure\sahtree.cpp">
+      <Filter>Acceleration Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImGUI\imgui.ini">
+      <Filter>ImGUI</Filter>
+    </None>
+  </ItemGroup>
+</Project>
