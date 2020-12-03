@@ -2,7 +2,13 @@
 
 This project researches ways to do subsurface scattering for point-cloud models on the GPU in real-time.
 ## Demo
-Please see the Demo/ folder for a video demonstration of the public version's capabilities
+Please see the Demo/ folder for a video demonstration of the public version's capabilities.
+Below are some images generated using my raytracer. 
+
+1. [Tracing Splats of Varying Radii](https://github.com/adejournett/CUDA_Raytracer_Public/blob/master/Demo/cowImg1.PNG)
+2. [Tracing Splats of Uniform Radii](https://github.com/adejournett/CUDA_Raytracer_Public/blob/master/Demo/cowImg2.PNG)
+3. [Sphere Tracing A Duck](https://github.com/adejournett/CUDA_Raytracer_Public/blob/master/Demo/duckImage.png)
+4. [An Image Comparison Of Splat Tracing VS Adamson-Alexa Interpolation](https://github.com/adejournett/CUDA_Raytracer_Public/blob/master/Demo/splatsAndAdamson-Alexa.png)
 
 ## Dependencies
 1. SDL2 (not included please use nuget through Visual Studio to include SDL2)
